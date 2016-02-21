@@ -1,0 +1,95 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#2683c2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp">
+            android:background="#e8e8e7"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search Donor"
+                android:textColor="#eb543b"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </LinearLayout>
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/spinner_bloodgroup"
+            android:hint="select bloodgroup"
+            android:background="#e8e8e7"
+            android:textColor="#2683c2"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="30dp"/>
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/spinner_state"
+            android:hint="select state"
+            android:background="#e8e8e7"
+            android:textColor="#2683c2"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="30dp"/>
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/spinner_district"
+            android:hint="select district"
+            android:background="#e8e8e7"
+            android:textColor="#2683c2"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="30dp"/>
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/spinner_city"
+            android:hint="select city"
+            android:background="#e8e8e7"
+            android:textColor="#2683c2"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="30dp"/>
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/spinner_area"
+            android:hint="select area"
+            android:background="#e8e8e7"
+            android:textColor="#2683c2"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/search_btn"
+                android:text="Search"
+                android:background="#13b586"
+                android:textColor="#e8e8e7"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+        />
+
+            />
+
+
+
+
+    </LinearLayout>
+    </ScrollView>

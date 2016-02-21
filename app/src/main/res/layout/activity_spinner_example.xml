@@ -1,0 +1,192 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xml_scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#2683c2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp">
+            android:background="#e8e8e7"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:textColor="#eb543b"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="38dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="#2683c2">
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Fullname"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/xml_fullname" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/xml_contact"
+                android:maxLength="10"
+                android:hint="Contact No"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp" />
+            />
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/xml_bloodgroup"
+                android:hint="select Bloodgroup"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/xml_birthdate"
+                android:hint="Birthdate"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Gender"
+                android:id="@+id/xml_textView"/>
+
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/et_address"
+                    android:id="@+id/xml_radiogroup_gender"
+                    android:background="#e8e8e7"
+                    android:checkedButton="@+id/sound" >
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/xml_male"
+                        android:text="@string/male" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/xml_female"
+                        android:text="@string/female" />
+
+                </RadioGroup>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:hint="address"
+                android:id="@+id/xml_address"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                />
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/xml_state"
+                android:hint="select State"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/xml_district"
+                android:hint="select district"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/xml_city"
+                android:hint="select city"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/xml_area"
+                android:hint="select area"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/xml_ok_button"
+                android:text="Register"
+                android:background="#13b586"
+                android:textColor="#e8e8e7"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+

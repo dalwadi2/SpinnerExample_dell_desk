@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.spinnerexample" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Welcome_Blood_Donors"
+            android:label="@string/title_activity_welcome__blood__donors" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".page2"
+            android:label="@string/title_activity_page2" >
+        </activity>
+        <activity
+            android:name=".Search_donor"
+            android:label="@string/title_activity_search_donor" >
+        </activity>
+        <activity
+            android:name=".Datepicker"
+            android:label="@string/title_activity_datepicker" >
+        </activity>
+        <activity
+            android:name=".SpinnerExample"
+            android:label="@string/title_activity_welcome__blood__donors" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".Ratingbar"
+            android:label="@string/title_activity_Ratingbar" />
+        <activity
+            android:name=".Display_donors"
+            android:label="@string/title_activity_display_donors"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Display_donor"
+            android:label="@string/title_activity_display_donor"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Display"
+            android:label="@string/title_activity_display"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Listview"
+            android:label="@string/title_activity_listview"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

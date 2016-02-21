@@ -1,0 +1,97 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#2683c2"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#2683c2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doantion History"
+                android:textColor="#eb543b"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="38dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="#2683c2">
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Recipient"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/xml_fullname" />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+
+                android:ems="10"
+                android:id="@+id/xml_donor"
+                android:hint="Donor name"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/xml_date"
+                android:hint="Date of donation"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp" />
+            />
+
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:id="@+id/xml_bloodgroup"
+                android:hint="Bloodgroup"
+                android:background="#e8e8e7"
+                android:textColor="#2683c2"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ok_button"
+                android:text="Save"
+                android:background="#13b586"
+                android:textColor="#e8e8e7"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
